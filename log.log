@@ -1,0 +1,164 @@
+old env 
+========== GPU ==========
+index, name, driver_version, memory.total [MiB], memory.used [MiB], compute_cap
+0, Tesla T4, 580.178.04, 15360 MiB, 0 MiB, 7.5
+1, Tesla T4, 580.178.04, 15360 MiB, 0 MiB, 7.5
+
+========== NVIDIA-SMI ==========
+Mon Nov  2 19:00:18 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+
+========== OS / GLIBC / PYTHON ==========
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+ldd (Ubuntu GLIBC 2.35-0ubuntu3.8) 2.35
+Python 3.12.13
+/usr/bin/python3
+
+========== PYTORCH ==========
+Torch: 2.10.0+cu128
+CUDA build: 12.8
+CUDA available: True
+GPU count: 2
+
+========== CUDA TOOLKIT ==========
+/usr/local/cuda/bin/nvcc
+Cuda compilation tools, release 12.8, V12.8.93
+Build cuda_12.8.r12.8/compiler.35583870_0
+
+========== INTERNET CONNECTIVITY ==========
+PyPI HTTP: 200
+HuggingFace HTTP: 200
+
+========== DISK / SHM / CPU / RAM ==========
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop2       20G   80K   20G   1% /kaggle/working
+overlay         8.0T  7.1T  967G  89% /
+shm              14G     0   14G   0% /dev/shm
+4
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.2Gi        24Gi       1.0Mi       5.6Gi        29Gi
+Swap:             0B          0B          0B
+
+========== ML LIBRARIES ==========
+torch: 2.10.0+cu128
+torchvision: 0.25.0+cu128
+torchaudio: 2.10.0+cu128
+transformers: 5.0.0
+vllm: NOT INSTALLED
+xformers: NOT INSTALLED
+flash-attn: NOT INSTALLED
+triton: 3.6.0
+bitsandbytes: NOT INSTALLED
+accelerate: 1.13.0
+tokenizers: 0.22.2
+safetensors: 0.7.0
+
+========== PIP CONFIG ==========
+pip 24.1.2 from /usr/local/lib/python3.12/dist-packages/pip (python 3.12)
+global.disable-pip-version-check='True'
+global.log='/var/log/pip.log'
+global.root-user-action='ignore'
+list.format='columns'
+accelerate                               1.13.0
+pytorch-ignite                           0.5.4
+pytorch-lightning                        2.6.5
+sentence-transformers                    5.4.1
+torch                                    2.10.0+cu128
+torchao                                  0.10.0
+torchaudio                               2.10.0+cu128
+torchcodec                               0.10.0+cu128
+torchdata                                0.11.0
+torchinfo                                1.8.0
+torchmetrics                             1.9.0
+torchsummary                             1.5.1
+torchtune                                0.6.1
+torchvision                              0.25.0+cu128
+transformers                             5.0.0
+triton                                   3.6.0
+
+
+
+
+new env 
+========== GPU ==========
+index, name, driver_version, memory.total [MiB], memory.used [MiB], compute_cap
+0, Tesla T4, 580.178.04, 15360 MiB, 0 MiB, 7.5
+1, Tesla T4, 580.178.04, 15360 MiB, 0 MiB, 7.5
+
+========== NVIDIA-SMI ==========
+Mon Nov  2 18:59:20 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+
+========== OS / GLIBC / PYTHON ==========
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+ldd (Ubuntu GLIBC 2.39-0ubuntu8.8) 2.39
+Python 3.13.15
+/usr/bin/python3
+
+========== PYTORCH ==========
+Torch: 2.11.0+cu128
+CUDA build: 12.8
+CUDA available: True
+GPU count: 2
+
+========== CUDA TOOLKIT ==========
+/usr/local/cuda/bin/nvcc
+Cuda compilation tools, release 12.8, V12.8.93
+Build cuda_12.8.r12.8/compiler.35583870_0
+
+========== INTERNET CONNECTIVITY ==========
+PyPI HTTP: 200
+HuggingFace HTTP: 200
+
+========== DISK / SHM / CPU / RAM ==========
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop2       20G  144K   20G   1% /kaggle/working
+overlay         8.0T  7.1T  967G  89% /
+shm              14G     0   14G   0% /dev/shm
+4
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.4Gi        24Gi       1.3Mi       5.7Gi        29Gi
+Swap:             0B          0B          0B
+
+========== ML LIBRARIES ==========
+torch: 2.11.0+cu128
+torchvision: 0.26.0+cu128
+torchaudio: 2.11.0+cu128
+transformers: 5.16.1
+vllm: NOT INSTALLED
+xformers: NOT INSTALLED
+flash-attn: NOT INSTALLED
+triton: 3.6.0
+bitsandbytes: NOT INSTALLED
+accelerate: 1.14.0
+tokenizers: 0.23.1
+safetensors: 0.8.0
+
+========== PIP CONFIG ==========
+pip 24.1.2 from /usr/local/lib/python3.13/dist-packages/pip (python 3.13)
+global.disable-pip-version-check='True'
+global.log='/var/log/pip.log'
+global.root-user-action='ignore'
+list.format='columns'
+accelerate                            1.14.0
+pytorch-ignite                        0.5.5
+pytorch-lightning                     2.6.6
+sentence-transformers                 5.7.0
+torch                                 2.11.0+cu128
+torchao                               0.10.0
+torchaudio                            2.11.0+cu128
+torchcodec                            0.11.0+cu128
+torchdata                             0.11.0
+torchinfo                             1.8.0
+torchmetrics                          1.9.0
+torchsummary                          1.5.1
+torchtune                             0.6.1
+torchvision                           0.26.0+cu128
+transformers                          5.16.1
+triton                                3.6.0
