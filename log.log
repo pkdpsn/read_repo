@@ -162,3 +162,89 @@ torchtune                             0.6.1
 torchvision                           0.26.0+cu128
 transformers                          5.16.1
 triton                                3.6.0
+
+
+
+
+
+========== GPU ==========
+index, name, driver_version, memory.total [MiB], memory.used [MiB], compute_cap
+0, NVIDIA L4, 580.178.04, 23034 MiB, 0 MiB, 8.9
+1, NVIDIA L4, 580.178.04, 23034 MiB, 0 MiB, 8.9
+2, NVIDIA L4, 580.178.04, 23034 MiB, 0 MiB, 8.9
+3, NVIDIA L4, 580.178.04, 23034 MiB, 0 MiB, 8.9
+
+========== NVIDIA-SMI ==========
+Mon Nov  2 19:20:42 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+
+========== OS / GLIBC / PYTHON ==========
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+ldd (Ubuntu GLIBC 2.35-0ubuntu3.8) 2.35
+Python 3.12.13
+/usr/bin/python3
+
+========== PYTORCH ==========
+Torch: 2.10.0+cu128
+CUDA build: 12.8
+CUDA available: True
+GPU count: 4
+
+========== CUDA TOOLKIT ==========
+/usr/local/cuda/bin/nvcc
+Cuda compilation tools, release 12.8, V12.8.93
+Build cuda_12.8.r12.8/compiler.35583870_0
+
+========== INTERNET CONNECTIVITY ==========
+PyPI HTTP: 000
+HuggingFace HTTP: 000
+
+========== DISK / SHM / CPU / RAM ==========
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop2       20G  136K   20G   1% /kaggle/working
+overlay         8.0T  7.1T  967G  89% /
+shm              86G     0   86G   0% /dev/shm
+46
+               total        used        free      shared  buff/cache   available
+Mem:           188Gi       1.7Gi       181Gi       1.0Mi       5.7Gi       185Gi
+Swap:             0B          0B          0B
+
+========== ML LIBRARIES ==========
+torch: 2.10.0+cu128
+torchvision: 0.25.0+cu128
+torchaudio: 2.10.0+cu128
+transformers: 5.0.0
+vllm: NOT INSTALLED
+xformers: NOT INSTALLED
+flash-attn: NOT INSTALLED
+triton: 3.6.0
+bitsandbytes: NOT INSTALLED
+accelerate: 1.13.0
+tokenizers: 0.22.2
+safetensors: 0.7.0
+
+========== PIP CONFIG ==========
+pip 24.1.2 from /usr/local/lib/python3.12/dist-packages/pip (python 3.12)
+global.disable-pip-version-check='True'
+global.log='/var/log/pip.log'
+global.root-user-action='ignore'
+list.format='columns'
+accelerate                               1.13.0
+pytorch-ignite                           0.5.4
+pytorch-lightning                        2.6.5
+sentence-transformers                    5.4.1
+torch                                    2.10.0+cu128
+torchao                                  0.10.0
+torchaudio                               2.10.0+cu128
+torchcodec                               0.10.0+cu128
+torchdata                                0.11.0
+torchinfo                                1.8.0
+torchmetrics                             1.9.0
+torchsummary                             1.5.1
+torchtune                                0.6.1
+torchvision                              0.25.0+cu128
+transformers                             5.0.0
+triton                                   3.6.0
